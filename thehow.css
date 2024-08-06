@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-layer{
+    background-color: #2d2c4ceb;
+}
+.container{
+    background-color: #fcd750;
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 70rem;
+    margin: 0px auto;
+    padding: 0 2rem;
+}
+.contact-container{
+    display: flex;
+    padding: 64px 32px;
+}
+.contact{
+    width: 50%;
+}
+.contact h2{
+    color: #2c2d4c;
+    width: 60%;
+    margin-top: 0rem;
+    margin-bottom: 10px;
+    font-size: 4.236rem;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+.digital{
+    width: 80%;
+    color: #2c2d4c;
+    font-size: 1.618rem;
+    line-height: 1.1em;
+    letter-spacing: -0.02em;
+}
+.required-field{
+    margin-top: 60px;
+    display: flex;
+    color: #2c2d4c;
+    font-size: 20px;
+    width: 50%;
+}
+.contact img{
+    position: absolute;
+    left: 0px;
+    width: 28%;
+    margin-top: 30px;
+}
+.form{
+    width: 40%;
+    padding-left: 0px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.formm label{
+    color: #2c2d4c;
+    font-size: 16px;
+}
+.formm input{
+    width: 100%;
+    padding: 20px 0px;
+}
+.message label{
+    color: #2c2d4c;
+    font-size: 16px;
+}
+.message input{
+    width: 100%;
+    padding: 50px 0px;
+}
+#submit{
+    background-color: #2c2d4c;
+    color: white;
+    padding: 20px 10px;
+    width: 50%;
+    border: 0px;
+}
+#radio img{
+    width: 10px;
+    height: 10px;
+}
